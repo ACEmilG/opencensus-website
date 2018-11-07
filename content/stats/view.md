@@ -42,6 +42,7 @@ Multiple views can use the same measure but only if they have different aggregat
 package main
 
 import (
+	"go.opencensus.io/tag"
 	"go.opencensus.io/stats/view"
 )
 
